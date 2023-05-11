@@ -1,0 +1,214 @@
+.-phone144-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.-phone144-i-phone144 {
+  width: 100%;
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: #09fcdf;
+}
+.-phone144-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 844px;
+  position: absolute;
+}
+.-phone144-text {
+  top: 64px;
+  left: 33px;
+  color: rgba(0, 0, 0, 1);
+  width: 324px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Black;
+  text-align: left;
+  font-family: Alegreya Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone144-rectangle3 {
+  top: 218px;
+  left: 48px;
+  width: 289px;
+  height: 258px;
+  position: absolute;
+}
+.-phone144-text02 {
+  top: 228px;
+  left: 58px;
+  color: rgba(0, 0, 0, 1);
+  width: 270px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Black;
+  text-align: left;
+  font-family: Alegreya Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone144-text04 {
+  top: 528px;
+  left: 24px;
+  color: rgba(0, 0, 0, 1);
+  width: 294px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Black;
+  text-align: left;
+  font-family: Alegreya Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone144-text06 {
+  top: 605px;
+  left: 26px;
+  color: rgba(0, 0, 0, 1);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Black;
+  text-align: left;
+  font-family: Alegreya Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone144-button {
+  color: #fbf9f9;
+  right: 22px;
+  width: 231px;
+  bottom: 16px;
+  position: absolute;
+  background-color: #0a0a0a;
+}
+.-phone144-navlink {
+  top: 11px;
+  left: 4px;
+  color: #f7f1f1;
+  width: 237px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #0a0a0a;
+}
+.-phone144-link {
+  top: 666px;
+  left: 27px;
+  color: #f3efef;
+  width: 230px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #101010;
+}
+.-phone144-image {
+  top: 62px;
+  left: 458px;
+  width: 307px;
+  height: 476px;
+  position: absolute;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .-phone144-i-phone144 {
+    background-color: #09fcdf;
+  }
+  .-phone144-button {
+    color: #f7f5f5;
+    right: 30px;
+    width: 222px;
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: #080808;
+  }
+  .-phone144-navlink {
+    top: 15px;
+    left: 1px;
+    color: #f9f8f8;
+    width: 228px;
+    position: absolute;
+    background-color: #080808;
+  }
+  .-phone144-image {
+    top: 69px;
+    right: 72px;
+  }
+}
+@media(max-width: 767px) {
+  .-phone144-i-phone144 {
+    background-color: #09fcdf;
+  }
+  .-phone144-button {
+    color: #fbf8f8;
+    right: 21px;
+    width: 146px;
+    bottom: 19px;
+    position: absolute;
+    margin-left: 39px;
+    background-color: #0e0e0e;
+  }
+  .-phone144-navlink {
+    top: 0px;
+    left: 0px;
+    color: #f5f0f0;
+    width: 149px;
+    position: absolute;
+    background-color: #0e0e0e;
+  }
+  .-phone144-image {
+    top: 98px;
+    right: 53px;
+    padding-left: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .-phone144-i-phone144 {
+    background-color: #09fcdf;
+  }
+  .-phone144-button {
+    color: rgb(243, 239, 239);
+    right: 3px;
+    bottom: 9px;
+    position: absolute;
+    align-self: flex-start;
+    background-color: rgb(14, 14, 14);
+  }
+  .-phone144-navlink {
+    top: 0px;
+    left: 0px;
+    color: rgb(249, 247, 247);
+    position: absolute;
+    background-color: rgb(14, 14, 14);
+  }
+  .-phone144-link {
+    top: 662px;
+    left: 14px;
+    color: rgb(247, 242, 242);
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(12, 12, 12);
+  }
+  .-phone144-image {
+    width: 261px;
+  }
+}

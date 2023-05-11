@@ -1,0 +1,234 @@
+.-phone143-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.-phone143-i-phone143 {
+  width: 100%;
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: #09fcdf;
+}
+.-phone143-rectangle7 {
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 844px;
+  position: absolute;
+}
+.-phone143-input {
+  gap: 8px;
+  top: 282px;
+  left: 8px;
+  width: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.-phone143-text {
+  color: rgba(81, 81, 91, 1);
+  height: auto;
+  font-size: 15px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone143-input1 {
+  gap: 8px;
+  top: 204px;
+  left: 9px;
+  width: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.-phone143-text2 {
+  color: rgba(81, 81, 91, 1);
+  height: auto;
+  font-size: 15px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone143-input2 {
+  gap: 8px;
+  top: 395px;
+  left: 9px;
+  width: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.-phone143-text4 {
+  color: rgba(81, 81, 91, 1);
+  height: auto;
+  font-size: 15px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone143-text5 {
+  top: 48px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  width: 324px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Black;
+  text-align: left;
+  font-family: Alegreya Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone143-button1 {
+  top: 766px;
+  left: 433px;
+  color: #fdf7f7;
+  width: 360px;
+  position: absolute;
+  background-color: #080808;
+}
+.-phone143-navlink {
+  top: 9px;
+  left: 20px;
+  color: #f9f4f4;
+  width: 347px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #080808;
+}
+@media(max-width: 991px) {
+  .-phone143-i-phone143 {
+    background-color: #09fcdf;
+  }
+  .-phone143-button1 {
+    top: 795px;
+    color: #f9f7f7;
+    right: 28px;
+    width: 280px;
+    position: absolute;
+    text-align: center;
+    background-color: #040404;
+  }
+  .-phone143-navlink {
+    top: 6px;
+    left: 11px;
+    color: #f9f5f5;
+    width: 316px;
+    position: absolute;
+    text-align: center;
+    background-color: #0e0e0e;
+  }
+}
+@media(max-width: 767px) {
+  .-phone143-i-phone143 {
+    background-color: #09fcdf;
+  }
+  .-phone143-text5 {
+    top: 93px;
+    left: 12px;
+  }
+  .-phone143-button1 {
+    color: #fffcfc;
+    right: 5px;
+    width: 161px;
+    bottom: 168px;
+    position: absolute;
+    text-align: center;
+    background-color: #040404;
+  }
+  .-phone143-navlink {
+    top: 9px;
+    left: 8px;
+    color: #f9f7f7;
+    width: 168px;
+    position: absolute;
+    background-color: #060606;
+  }
+}
+@media(max-width: 479px) {
+  .-phone143-i-phone143 {
+    background-color: #09fcdf;
+  }
+  .-phone143-textinput {
+    width: 100%;
+    height: 52px;
+  }
+  .-phone143-textinput1 {
+    width: 100%;
+    height: 50px;
+  }
+  .-phone143-text4 {
+    color: rgb(81, 81, 91);
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  .-phone143-textinput2 {
+    width: 100%;
+    height: 54px;
+  }
+  .-phone143-button {
+    color: rgb(251, 249, 249);
+    width: 127px;
+    height: 41px;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+  }
+  .-phone143-text5 {
+    top: 111px;
+    left: 36px;
+  }
+  .-phone143-button1 {
+    top: 758px;
+    left: 228px;
+    color: rgb(247, 246, 246);
+    height: 43px;
+    position: absolute;
+    background-color: rgb(6, 6, 6);
+  }
+  .-phone143-navlink {
+    top: 9px;
+    left: 16px;
+    color: rgb(247, 242, 242);
+    width: 86px;
+    position: absolute;
+    background-color: rgb(6, 6, 6);
+  }
+}
