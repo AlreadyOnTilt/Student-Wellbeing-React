@@ -53,8 +53,15 @@
   bottom: 364px;
   position: absolute;
   text-align: center;
+  transition: 0.3s;
   text-decoration: none;
   background-color: #0a0a0a;
+}
+.-phone141-button:hover {
+  background-color: #989696;
+}
+.-phone141-button:active {
+  background-color: #fdfbfb;
 }
 .-phone141-navlink {
   top: 508px;
@@ -63,8 +70,15 @@
   width: 468px;
   position: absolute;
   text-align: center;
+  transition: 0.3s;
   text-decoration: none;
   background-color: #060606;
+}
+.-phone141-navlink:hover {
+  background-color: #8a8989;
+}
+.-phone141-navlink:active {
+  background-color: #f1ebeb;
 }
 .-phone141-navlink1 {
   top: 587px;
@@ -73,8 +87,15 @@
   width: 468px;
   position: absolute;
   text-align: center;
+  transition: 0.3s;
   text-decoration: none;
   background-color: #0a0a0a;
+}
+.-phone141-navlink1:hover {
+  background-color: #a8a7a7;
+}
+.-phone141-navlink1:active {
+  background-color: #fbf6f6;
 }
 @media(max-width: 991px) {
   .-phone141-i-phone141 {

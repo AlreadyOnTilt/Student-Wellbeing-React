@@ -23,30 +23,30 @@ const IPhone143 = (props) => {
           </span>
           <input
             type="text"
-            placeholder="placeholder"
-            className="input -phone143-textinput"
+            placeholder="E.g DD/MM     HH:MM"
+            className="input -phone143-input1"
           />
         </div>
-        <div className="-phone143-input1">
+        <div className="-phone143-input2">
           <span className="-phone143-text2">
             <span>Personal Supervisor Name</span>
           </span>
           <input
             type="text"
-            placeholder="placeholder"
-            className="input -phone143-textinput1"
+            placeholder="E.g. John Doe"
+            className="input -phone143-textinput"
           />
         </div>
-        <div className="-phone143-input2">
+        <div className="-phone143-input3">
           <span className="-phone143-text4">
             Brief Description of the subject..
           </span>
           <input
             type="text"
-            placeholder="placeholder"
-            className="input -phone143-textinput2"
+            placeholder="Type Description...."
+            className="input -phone143-textinput1"
           />
-          <button className="button -phone143-button">Submit</button>
+          <button className="-phone143-button button">Submit</button>
         </div>
         <span className="-phone143-text5">
           <span>Booking a Meeting</span>

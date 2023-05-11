@@ -46,7 +46,7 @@
   height: 258px;
   position: absolute;
 }
-.-phone144-text02 {
+.-phone144-text01 {
   top: 228px;
   left: 58px;
   color: rgba(0, 0, 0, 1);
@@ -62,7 +62,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.-phone144-text04 {
+.-phone144-text06 {
   top: 528px;
   left: 24px;
   color: rgba(0, 0, 0, 1);
@@ -78,7 +78,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.-phone144-text06 {
+.-phone144-text08 {
   top: 605px;
   left: 26px;
   color: rgba(0, 0, 0, 1);
@@ -100,7 +100,11 @@
   width: 231px;
   bottom: 16px;
   position: absolute;
+  transition: 0.3s;
   background-color: #0a0a0a;
+}
+.-phone144-button:hover {
+  background-color: #838383;
 }
 .-phone144-navlink {
   top: 11px;
@@ -108,8 +112,15 @@
   color: #f7f1f1;
   width: 237px;
   position: absolute;
+  transition: 0.3s;
   text-decoration: none;
   background-color: #0a0a0a;
+}
+.-phone144-navlink:hover {
+  background-color: #676666;
+}
+.-phone144-navlink:active {
+  background-color: #e7e3e3;
 }
 .-phone144-link {
   top: 666px;
@@ -117,8 +128,15 @@
   color: #f3efef;
   width: 230px;
   position: absolute;
+  transition: 0.3s;
   text-decoration: none;
   background-color: #101010;
+}
+.-phone144-link:hover {
+  background-color: #5e5d5d;
+}
+.-phone144-link:active {
+  background-color: #fffafa;
 }
 .-phone144-image {
   top: 62px;
@@ -184,6 +202,17 @@
 @media(max-width: 479px) {
   .-phone144-i-phone144 {
     background-color: #09fcdf;
+  }
+  .-phone144-text {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Alegreya Sans;
+    font-weight: 900;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .-phone144-text01 {
+    color: rgb(0, 0, 0);
   }
   .-phone144-button {
     color: rgb(243, 239, 239);

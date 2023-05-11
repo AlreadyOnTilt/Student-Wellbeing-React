@@ -17,26 +17,33 @@ const IPhone144 = (props) => {
           src="/playground_assets/rectangle6423-t0tv-900h.png"
           className="-phone144-rectangle6"
         />
-        <span className="-phone144-text">
-          <span>Mental Health Advice</span>
-        </span>
+        <span className="-phone144-text">Mental Health Advice</span>
         <img
           alt="Rectangle31300"
           src="/playground_assets/rectangle31300-cnp-300h.png"
           className="-phone144-rectangle3"
         />
-        <span className="-phone144-text02">
+        <span className="-phone144-text01">
           <span>
             If you are worried about your mental health there are a number of
-            free organisations you can call/email that will help you.  If you
-            think you are in serious trouble please call Samaritans on the
-            number below or 999.
+            free organisations you can call/email that will help you.  
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            If you think you are in serious trouble please call Samaritans on
+            the number below or 999.
           </span>
         </span>
-        <span className="-phone144-text04">
+        <span className="-phone144-text06">
           <span>Student Advice Email: studentadvice@hull.ac.uk</span>
         </span>
-        <span className="-phone144-text06">
+        <span className="-phone144-text08">
           <span>
             <span>Samaritans Phone number:</span>
             <br></br>

@@ -219,7 +219,14 @@
   width: 214px;
   bottom: 16px;
   position: absolute;
+  transition: 0.3s;
   background-color: #020202;
+}
+.-phone142-button:hover {
+  background-color: #a09e9e;
+}
+.-phone142-button:active {
+  background-color: #f9f7f7;
 }
 .-phone142-navlink {
   top: 29px;
@@ -228,8 +235,15 @@
   width: 227px;
   position: absolute;
   text-align: center;
+  transition: 0.3s;
   text-decoration: none;
   background-color: #000000;
+}
+.-phone142-navlink:hover {
+  color: #878787;
+}
+.-phone142-navlink:active {
+  background-color: #bbb9b9;
 }
 @media(max-width: 991px) {
   .-phone142-i-phone142 {
